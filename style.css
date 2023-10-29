@@ -1,0 +1,82 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+.container{
+    width: 127rem;
+    margin: 0 auto;
+}
+.header-top{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+}
+.header-section-one{
+    display: flex;
+    justify-content: space-between;
+}
+.header-top-contant{
+    display: flex;
+    gap: 4rem;
+}
+.header-contant-one{
+    display: flex;
+    gap: 4rem;
+}
+.number-one{
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.email-one{
+    
+}
+.email-one a{
+    text-decoration: none;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.icon-section i{
+    font-size: 2rem;
+    padding-left: 2rem;
+}
+.world{
+    display: flex;
+    gap: 1rem;
+    color: var(--Black, #000);
+    /* Text/Small/Normal */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    padding-left: 6rem;
+}
+.world i{
+    font-size: 1.5rem;
+}
+.sign-one a{
+    color: var(--Black, #000);
+    text-decoration: none;
+    /* Text/Small/Normal */
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+    padding-left: 1rem;
+}
+.sign-one i{
+    font-size: 2rem;
+}
