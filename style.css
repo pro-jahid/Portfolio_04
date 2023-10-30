@@ -273,6 +273,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 15rem;
 }
 .main-section-three{
     width: 45%;
@@ -348,5 +349,361 @@ html{
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
-
-
+/* section five start */
+.choose-section{
+    padding-bottom: 15rem;
+}
+.choose-section-one{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-section-seven{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 6rem;
+}
+.choose-section-two{
+    width: 30%;
+}
+.choose-section-seven{
+    width: 60%;
+}
+.choose-section-three{
+    width: 45%;
+}
+.choose-section-four{
+    width: 45%;
+}
+.choose-section-five{
+    width: 45%;
+}
+.choose-section-six{
+    width: 45%;
+}
+.choose-section-two h2{
+    padding-bottom: 2.54rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+.choose-section-two p{
+    padding-bottom: 3rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.choose-section-seven h3{
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */
+}
+.choose-section-seven h2{
+    color: var(--Kuno-Red, #000);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+.choose-section-seven p{
+    padding-bottom: 2.4rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.choose-section-seven button{
+    border: none;
+    background: transparent;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+/* section six start */
+.card-section h2{
+    padding-bottom: 1rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */
+}
+.card-section-two{
+    display: flex;
+    justify-content: space-between;
+}
+.card-section-five{
+    padding-bottom: 6.4rem;
+}
+.card-section-three p{
+    padding-bottom: 8rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.card-section-four button{
+    padding: 1rem 2rem;
+    background: transparent;
+    border-radius: 0.4rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    cursor: pointer;
+}
+/* section six start */
+.card-section-six{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+}
+.card-img-one{
+    
+}
+.card-details{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.card-value h2{
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+}
+.card-pricing h3{
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+.card-section-img-one{
+    width: 23%;
+}
+.card-section-img-one img{
+    width: 100%;
+    display: block;
+}
+.card-section-img-one p{
+    padding-bottom: 1rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.card-section-img-one button{
+    background: transparent;
+    padding: 0.5rem 0rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    width: 100%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.card-section-ten{
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+.card-section-eight{
+    padding-bottom: 11rem;
+}
+/* section seven start */
+.section-seven{
+    background-image: url(./img/light.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 13rem 0rem;
+}
+/* section seven start */
+.logo-section-two h3{
+    padding-bottom: 2.5rem;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+.logo-section-two h2{
+    padding-bottom: 2.5rem;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */   
+}
+.btn-three{
+    display: flex;
+    gap: 2rem;
+}
+.btn-four{
+    border-radius: 0.5rem;
+    border: 1px solid #fff;
+    padding: 1rem 3rem;
+    background: transparent;
+    color: var(--Kuno-Greywhite, #F7F7F7);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */   
+    cursor: pointer;
+}
+.btn-five{
+    border: none;
+    padding: 1rem 3rem;
+    background: transparent;
+    color: var(--White, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */  
+    cursor: pointer;
+}  
+.section-eight{
+    padding-top: 11rem;
+} 
+/* section nine start */
+.contact-sct-one{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-sct-two{
+    width: 45%;
+}
+.contact-one{
+    width: 45%;
+}
+.contact-sct-two h3{
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+}
+.contact-sct-two h2{
+    padding-top: 1.5rem;
+    padding-bottom: 2.4rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 57.6px */   
+}
+.contact-sct-two p{
+    padding-bottom: 3.2rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */   
+}
+.email-one{
+    display: flex;
+    gap: 2rem;
+}
+.phn-one{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.location-one{
+    display: flex;
+    gap: 2rem;
+}
+.contact-sct-two i{
+    font-size: 2rem;
+}
+.contact-sct-two a{
+    text-decoration: none;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.contact-one input{
+    width: 100%;
+    padding: 2rem 0rem;
+    border-radius: 0.5rem;
+}
+.contact-one textarea{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.contact-one textarea::placeholder{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: var(--neutral-dark-gray, #505050);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */  
+}
+.contact-one p{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: var(--Black, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.contact-one button{
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    background-color: #000;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
