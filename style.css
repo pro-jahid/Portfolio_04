@@ -982,13 +982,6 @@ html{
     .card{
         width: 21%;
     }
-    .input-btn-one input{
-        padding: 1.6rem 1rem;
-    }
-    .email-section-two input{
-        padding-right: 1rem;
-    }
-
 }
 @media (max-width:768px){
     html{
@@ -1051,7 +1044,6 @@ html{
         gap: 5rem;
         width: 100%;
     }
-    }
     .footer-section-seven{
         width: 100%;
     }
@@ -1063,7 +1055,6 @@ html{
         width: 100%;
         padding-bottom: 2.4rem
     }
-
 }
 @media (max-width:576px){
     html{
