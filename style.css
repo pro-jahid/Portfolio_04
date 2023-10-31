@@ -1,3 +1,7 @@
+:root {
+    --Black: #000;
+}
+
 html{
     font-size: 62.5%;
 }
@@ -33,7 +37,7 @@ html{
     color: #000;
 }
 .number-one{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -45,7 +49,7 @@ html{
 }
 .email-one a{
     text-decoration: none;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -59,7 +63,7 @@ html{
 .world{
     display: flex;
     gap: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -71,7 +75,7 @@ html{
     font-size: 1.5rem;
 }
 .sign-one a{
-    color: var(--Black, #000);
+    color: var(--Black);
     text-decoration: none;
     font-family: Roboto;
     font-size: 1.4rem;
@@ -100,6 +104,9 @@ html{
     font-weight: 700;
     line-height: normal;
 }
+.header-responsive{
+    display: none;
+}
 .header-logo a{
     text-decoration: none;
 }
@@ -126,7 +133,7 @@ html{
 }
 .navber ul li a{
     text-decoration: none;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -150,7 +157,7 @@ html{
     padding-right: 0.5rem;
 }
 .search-area::placeholder{
-    color: var(--Black, #000);
+    color: var(--Black);
     /* Text/Regular/Normal */
     font-family: Roboto;
     font-size: 1.6rem;
@@ -162,7 +169,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--Black, #000);
+    color: var(--Black);
 /* Text/Tiny/Normal */
     font-family: Roboto;
     font-size: 1.2rem;
@@ -174,7 +181,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--Black, #000);
+    color: var(--Black);
 /* Text/Tiny/Normal */
     font-family: Roboto;
     font-size: 1.2rem;
@@ -186,7 +193,7 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.2rem;
     font-style: normal;
@@ -211,7 +218,7 @@ html{
     color: rgba(0, 0, 0, 0.9);
     float: right;
     line-height: 80px;
-    margin-right: 0px;
+    margin-left: 0px;
 }
 #check{
     display: none;
@@ -275,7 +282,7 @@ html{
 .btn-two{
     border-radius: 5px;
     padding: 1rem 3rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -316,7 +323,7 @@ html{
     padding-bottom: 3.2rem;
 }
 .about-section h4{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -326,7 +333,7 @@ html{
 .about-section h2{
     padding-bottom: 2rem;
     padding-top: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 4.8rem;
     font-style: normal;
@@ -334,7 +341,7 @@ html{
     line-height: 120%; /* 57.6px */
 }
 .about-section p{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.8rem;
     font-style: normal;
@@ -361,7 +368,7 @@ html{
     padding-top: 4rem;
 }
 .about-section-two h3{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 4.8rem;
     font-style: normal;
@@ -369,7 +376,7 @@ html{
     line-height: 120%; /* 57.6px */
 }
 .about-section-two p{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -398,20 +405,11 @@ html{
     width: 60%;
 }
 .choose-section-three{
-    width: 45%;
-}
-.choose-section-four{
-    width: 45%;
-}
-.choose-section-five{
-    width: 45%;
-}
-.choose-section-six{
-    width: 45%;
+    width: 43%;
 }
 .choose-section-two h2{
     padding-bottom: 2.54rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 4.8rem;
     font-style: normal;
@@ -420,7 +418,7 @@ html{
 }
 .choose-section-two p{
     padding-bottom: 3rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.8rem;
     font-style: normal;
@@ -430,7 +428,7 @@ html{
 .choose-section-seven h3{
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 2.4rem;
     font-style: normal;
@@ -447,7 +445,7 @@ html{
 }
 .choose-section-seven p{
     padding-bottom: 2.4rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -457,7 +455,7 @@ html{
 .choose-section-seven button{
     border: none;
     background: transparent;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -467,7 +465,7 @@ html{
 /* section six start */
 .card-section h2{
     padding-bottom: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 4.8rem;
     font-style: normal;
@@ -478,12 +476,10 @@ html{
     display: flex;
     justify-content: space-between;
 }
-.card-section-five{
-    padding-bottom: 6.4rem;
-}
+
 .card-section-three p{
     padding-bottom: 8rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.8rem;
     font-style: normal;
@@ -494,7 +490,7 @@ html{
     padding: 1rem 2rem;
     background: transparent;
     border-radius: 0.4rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -503,13 +499,18 @@ html{
     cursor: pointer;
 }
 /* section six start */
-.card-section-six{
+.card-main{
     display: flex;
     flex-wrap: wrap;
     gap: 3.2rem;
+    justify-content: center;
 }
-.card-img-one{
-    
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    justify-content: center;
+    padding-bottom: 11.2rem;
 }
 .card-details{
     display: flex;
@@ -517,7 +518,7 @@ html{
     padding-top: 1rem;
 }
 .card-value h2{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.8rem;
     font-style: normal;
@@ -525,33 +526,33 @@ html{
     line-height: 150%; /* 27px */
 }
 .card-pricing h3{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
     line-height: 150%; /* 30px */
 }
-.card-section-img-one{
-    width: 22.9%;
+.card{
+    width: 22%;
 }
-.card-section-img-one img{
+.card img{
     width: 100%;
     display: block;
 }
-.card-section-img-one p{
+.card p{
     padding-bottom: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 21px */
 }
-.card-section-img-one button{
+.card button{
     background: transparent;
     padding: 0.5rem 0rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -560,11 +561,6 @@ html{
     width: 100%;
     border-radius: 0.5rem;
     cursor: pointer;
-}
-.card-section-ten{
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
 }
 .card-section-eight{
     padding-bottom: 11rem;
@@ -642,7 +638,7 @@ html{
     width: 45%;
 }
 .contact-sct-two h3{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -652,7 +648,7 @@ html{
 .contact-sct-two h2{
     padding-top: 1.5rem;
     padding-bottom: 2.4rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 4.8rem;
     font-style: normal;
@@ -661,7 +657,7 @@ html{
 }
 .contact-sct-two p{
     padding-bottom: 3.2rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.8rem;
     font-style: normal;
@@ -687,7 +683,7 @@ html{
 }
 .contact-sct-two a{
     text-decoration: none;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -716,7 +712,7 @@ html{
 .contact-one p{
     padding-top: 2rem;
     padding-bottom: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -745,7 +741,7 @@ html{
 }
 .chose-file a{
     text-decoration: none;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -777,7 +773,7 @@ html{
     width: 35%;
 }
 .footer-logo{
-    width: 25%;
+    width: 20%;
     display: flex;
     align-items: start;
     gap: 1rem
@@ -793,7 +789,7 @@ html{
 }
 .footer-section-three h3{
     padding-bottom: 1.6rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -802,7 +798,7 @@ html{
 }
 .footer-section-three p{
     padding-bottom: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -810,20 +806,17 @@ html{
     line-height: 150%; /* 21px */   
 }
 .categories{
-    width: 25%;
+    width: 20%;
 }
 .categories-two{
-    width: 25%;
+    width: 20%;
     padding-top: 4rem;
 }
 .about{
-    width: 25%;
-}
-.subscribe-one{
-    width: ;
+    width: 20%;
 }
 .subscribe-two h4{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.6rem;
     font-style: normal;
@@ -833,7 +826,7 @@ html{
 }
 .subscribe-two h5{
     padding-top: 1rem;
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.2rem;
     font-style: normal;
@@ -853,7 +846,7 @@ html{
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
-    padding-right: 12rem;
+    padding-right: 8rem;
 }
 .email-section{
     display: flex;
@@ -861,7 +854,7 @@ html{
     gap: 2rem;
 }
 .input-btn-one input{
-    padding: 1.6rem 2.5rem;
+    padding: 1.6rem 2rem;
     border-radius: 0.5rem;
     background: transparent;
     color: var(--neutral-dark-gray, #505050);
@@ -888,7 +881,7 @@ html{
     gap: 2.4rem;
 }
 .footer-last-section p{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -896,7 +889,7 @@ html{
     line-height: 150%; /* 21px */   
 }
 .footer-last-section a{
-    color: var(--Black, #000);
+    color: var(--Black);
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -940,9 +933,9 @@ html{
         position: fixed;
         width: 100vw;
         height: 50vh;
-        top: 102px;
+        top: 115px;
         left: -200%;
-        background-color: var(--secondary-text);
+        background-color: #fff;
         transition: all .1s;
         flex-direction: column;
         gap: 15px;
@@ -963,21 +956,116 @@ html{
     .checkbtn{
         display: block;
     }
-    .header-section-one{
+    .header-responsive{
+        display: block;
+    }
+    .header-responsive-one{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .search-area, .love, .cart, .notification{
         display: none;
     }
-    .cart, .love, .notification{
+    .header-section{
         display: none;
     }
-    .search-area{
-        border: none;
+    .header-responsive-two{
+        border-bottom: 1px solid #000;
     }
-    .search-area input{
-        display: none;
+    .header-responsive-one i{
+        font-size: 3rem;
+    }
+    .header-logo-two three{
+        padding-top: 2.4rem;
+    }
+    .card{
+        width: 21%;
+    }
+    .input-btn-one input{
+        padding: 1.6rem 1rem;
+    }
+    .email-section-two input{
+        padding-right: 1rem;
     }
 
 }
 @media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .hero-section-one{
+        gap: 2.4rem;
+    }
+    .hero-section-two{
+        width: 100%;
+    }
+    .main-section-two{
+        gap: 5rem;
+    }
+    .hero-section-three{
+        width: 100%;
+    }
+    .main-section-three{
+        width: 100%;
+        text-align: center;
+    }
+    .about-img-section{
+        width: 100%;
+    }
+    .choose-section-one{
+        gap: 6rem;
+    }
+    .choose-section-two{
+        width: 100%;
+    }
+    .choose-section-three{
+        width: 43%;
+    }
+    .choose-section-seven{
+        width: 100%;
+    }
+    .card{
+        width: 47%;
+    }
+    .section-seven{
+        background-position: right;
+    }
+    .contact-sct-two{
+        width: 100%;
+    }
+    .contact-one{
+        width: 100%;
+    }
+    .contact-sct-one{
+        gap: 5rem;
+    }
+    .chose-file{
+        display: none;
+    }
+    .contact-one button{
+        width: 100%;
+        margin-top: 5rem;
+    }
+    .footer-section-four{
+        gap: 5rem;
+        width: 100%;
+    }
+    }
+    .footer-section-seven{
+        width: 100%;
+    }
+    .footer-section-eight{
+        width: 100%;
+        padding-bottom: 2.4rem;
+    }
+    .social-icon{
+        width: 100%;
+        padding-bottom: 2.4rem
+    }
+
+}
+@media (max-width:576px){
     html{
         font-size: 50%;
     }
@@ -1012,7 +1100,7 @@ html{
     .choose-section-seven{
         width: 100%;
     }
-    .card-section-img-one{
+    .card{
         width: 100%;
     }
     .section-seven{
@@ -1069,8 +1157,4 @@ html{
         width: 100%;
         padding-bottom: 2.4rem
     }
-
-}
-@media (max-width:576px){
-
 }
