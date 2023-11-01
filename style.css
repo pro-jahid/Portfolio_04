@@ -269,6 +269,7 @@ html{
     gap: 3rem;
 }
 .btn-one{
+    cursor: pointer;
     padding: 1rem 3rem;
     border-radius: 5px;
     color: var(--White, #FFF);
@@ -280,6 +281,7 @@ html{
     line-height: 150%; /* 24px */
 }
 .btn-two{
+    cursor: pointer;
     border-radius: 5px;
     padding: 1rem 3rem;
     color: var(--Black);
@@ -454,6 +456,7 @@ html{
 }
 .choose-section-seven button{
     border: none;
+    cursor: pointer;
     background: transparent;
     color: var(--Black);
     font-family: Roboto;
@@ -562,6 +565,25 @@ html{
     border-radius: 0.5rem;
     cursor: pointer;
 }
+.card button:hover{
+    background-color: aqua;
+}
+.responsive-card-button{
+    display: none;
+}
+.responsive-card-button button{
+    background: transparent;
+    display: flex;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    padding: 2rem 4rem;
+    color: var(--Black, #000);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
 .card-section-eight{
     padding-bottom: 11rem;
 }
@@ -572,6 +594,7 @@ html{
     background-size: cover;
     width: 100%;
     padding: 13rem 0rem;
+    background-position: right;
 }
 /* section seven start */
 .logo-section-two h3{
@@ -855,6 +878,7 @@ html{
 }
 .input-btn-one input{
     padding: 1.6rem 2rem;
+    cursor: pointer;
     border-radius: 0.5rem;
     background: transparent;
     color: var(--neutral-dark-gray, #505050);
@@ -933,7 +957,7 @@ html{
         position: fixed;
         width: 100vw;
         height: 50vh;
-        top: 115px;
+        top: 83px;
         left: -200%;
         background-color: #fff;
         transition: all .1s;
@@ -956,8 +980,16 @@ html{
     .checkbtn{
         display: block;
     }
+    .header-search-icon input{
+        border: none;
+        outline: none;
+        width: 2rem;
+    }
     .header-responsive{
         display: block;
+    }
+    .header-section-two{
+        border: none;
     }
     .header-responsive-one{
         display: flex;
@@ -965,6 +997,9 @@ html{
         justify-content: space-between;
     }
     .search-area, .love, .cart, .notification{
+        display: none;
+    }
+    .header-top-two{
         display: none;
     }
     .header-section{
@@ -981,6 +1016,9 @@ html{
     }
     .card{
         width: 21%;
+    }
+    .section-seven{
+        background-position: right;
     }
 }
 @media (max-width:768px){
@@ -1094,6 +1132,10 @@ html{
     .card{
         width: 100%;
     }
+    .card-container{
+        gap: 4rem;
+        padding-bottom: 7rem;
+    }
     .section-seven{
         background-position: right;
     }
@@ -1140,6 +1182,9 @@ html{
     .footer-section-seven{
         width: 100%;
     }
+    .email-section-two input{
+        width: 100%;
+    }
     .footer-section-eight{
         width: 100%;
         padding-bottom: 2.4rem;
@@ -1147,5 +1192,18 @@ html{
     .social-icon{
         width: 100%;
         padding-bottom: 2.4rem
+    }
+    .card-section-four button{
+        display: none;
+    }
+    .responsive-card-button{
+        padding: 2rem 4rem;
+        display: block;
+        color: var(--Black, #000);
+        font-family: Roboto;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
     }
 }
