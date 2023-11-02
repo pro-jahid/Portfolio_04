@@ -29,6 +29,7 @@ html{
 .header-top-contant{
     display: flex;
     gap: 2rem;
+    align-items: center;
 }
 .header-contant-one{
     display: flex;
