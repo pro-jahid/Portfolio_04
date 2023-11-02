@@ -1170,6 +1170,8 @@ html{
     }
     .section-seven{
         background-position: right;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
     }
     .contact-sct-two{
         width: 100%;
