@@ -148,8 +148,9 @@ html{
     list-style: none;
     padding: rem;
 }
-.navber ul li :active{
+.navber .active{
     border-bottom: 1px solid #000;
+    padding-bottom: 0.5rem;
 }
 .navber ul li a{
     text-decoration: none;
@@ -950,6 +951,15 @@ html{
     padding-top: 3.2rem;
     padding-bottom: 1rem;
     border-top: 1px solid #000;
+}
+#product .section-six{
+    padding-top: 10rem;
+}
+#product .section-four{
+    padding-top: 10rem;
+}
+#product .contact-sct-one{
+    padding-top: 10rem;
 }
 
 
