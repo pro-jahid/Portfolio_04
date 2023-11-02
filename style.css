@@ -24,6 +24,7 @@ html{
 .header-section-one{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .header-top-contant{
     display: flex;
@@ -36,8 +37,9 @@ html{
 .header-contant-one a{
     color: #000;
 }
-.number-one{
+.number-one a{
     color: var(--Black);
+    text-decoration: none;
     font-family: Roboto;
     font-size: 1.4rem;
     font-style: normal;
@@ -60,7 +62,20 @@ html{
     font-size: 2rem;
     padding-left: 2rem;
 }
+.icon-section ul{
+    display: flex;
+}
+.icon-section ul li{
+    list-style: none;
+}
+#langues{
+    font-size: 1.4rem;
+    width: 8rem;
+    outline: none;
+    border: none;
+}
 .world{
+    align-items: center;
     display: flex;
     gap: 1rem;
     color: var(--Black);
@@ -72,7 +87,12 @@ html{
     padding-left: 6rem;
 }
 .world i{
-    font-size: 1.5rem;
+    font-size: 2rem;
+}
+.sign-one{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
 }
 .sign-one a{
     color: var(--Black);
@@ -232,6 +252,7 @@ html{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 .hero-section-two{
     width: 45%;
@@ -517,16 +538,18 @@ html{
 }
 .card-details{
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding-top: 1rem;
 }
 .card-value h2{
+    height: 20px;
+    overflow: hidden;
     color: var(--Black);
     font-family: Roboto;
     font-size: 1.8rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; /* 27px */
 }
 .card-pricing h3{
     color: var(--Black);
@@ -534,7 +557,6 @@ html{
     font-size: 2rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; /* 30px */
 }
 .card{
     width: 22%;
