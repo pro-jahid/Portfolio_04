@@ -466,7 +466,7 @@ html{
     line-height: 150%; /* 24px */
 }
 /* section six start */
-.card-section h2{
+.sub-content{
     padding-bottom: 1rem;
     color: var(--Black);
     font-family: Roboto;
