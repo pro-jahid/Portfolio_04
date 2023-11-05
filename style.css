@@ -37,6 +37,8 @@ html{
 }
 .header-contant-one a{
     color: #000;
+
+    
 }
 .number-one a{
     color: var(--Black);
@@ -167,6 +169,7 @@ html{
     border-radius: 0.5rem;
 }
 .search-area input{
+    background: transparent;
     width: 9rem;
     padding-top: 0.7rem;
     padding-left: 0.5rem;
@@ -739,10 +742,15 @@ html{
 }
 .contact-one input{
     width: 100%;
-    padding: 2rem 0rem;
+    padding: 1.8rem 0rem;
     border-radius: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1.8rem;
 }
 .contact-one textarea{
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
     width: 100%;
     border-radius: 0.5rem;
 }
@@ -893,7 +901,8 @@ html{
     padding-top: 2rem;
     padding-bottom: 2rem;
     padding-left: 1rem;
-    padding-right: 8rem;
+    padding-right: 4rem;
+    font-size: 1.8rem;
 }
 .email-section{
     display: flex;
