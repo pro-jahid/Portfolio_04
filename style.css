@@ -245,7 +245,7 @@ html{
     line-height: 80px;
     margin-left: 0px;
 }
-#check{
+.navber #check{
     display: none;
 }
 /* section two start */
@@ -580,6 +580,7 @@ html{
     line-height: 150%; /* 21px */
 }
 .card button{
+    transition: all 0.8s;
     background: transparent;
     padding: 0.5rem 0rem;
     color: var(--Black);
@@ -959,7 +960,7 @@ html{
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 3.2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
     border-top: 1px solid #000;
 }
 #product .section-six{
@@ -1026,6 +1027,7 @@ html{
         border: none;
         outline: none;
         width: 2rem;
+        background: transparent;
     }
     .header-responsive{
         display: block;
